@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: none;
+}
+
+body {
+    background-color: #411111e3;
+    width: 91em;
+    margin: 0.5em;
+    color: white;
+}
+
+header {
+    background-image: url('/resources/images/pexels-vindhya-chandrasekharan-15584232.jpg');
+    height: 60em;
+}
+
+header > h1 {
+    font-family: Helvetica;
+    font-size: 7em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    top: 0.5em;
+}
+
+
+header > nav > #first-option {
+    position: absolute;
+    font-size: 20px;
+    right: 38.5em;
+    top: 21.5em;
+    font-style: none;
+    height: 50px;
+    width: 100px;
+}
+
+header > nav > #first-option:hover {
+    background-color: black;
+}
