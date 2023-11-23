@@ -115,7 +115,7 @@ main {
     width: 18%;
     font-size: 18px;
     position: relative;
-    top: 2em;
+    top: 1.5em;
     left: 2.3em;
 }
 
@@ -128,16 +128,42 @@ main {
 }
 
 #register {
-    background-color: black;
     height: 30em;
     width: 100%;
     position: relative;
     top: 6em;
 }
 
-#register > article > img {
-    height: 20em;
+#register > img {
     position: absolute;
-    right: 2em;
-    top: 5em;
+    bottom: 4em;
+    left: 48em;
+    height: 25em;
+}
+
+#register > #texto {
+    width: 20%;
+    position: relative;
+    top: 6em;
+    left: 22em;
+    text-align: center;
+}
+
+#register > article > #first-button {
+    height: 3em;
+    width: 15em;
+    position: absolute;
+    top: 21em;
+    left: 29.2em;
+    border-radius: 10%;
+    border: 1px solid white;
+}
+
+#register > article > button > img {
+    height: 2em;
+} 
+
+#register > article > #first-button:hover {
+    background-color: black;
+    border: 1px solid black;
 }
