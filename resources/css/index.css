@@ -35,10 +35,15 @@ header > #nav-one > ul > li {
     font-weight: bold;
     margin: 4em;
     bottom: 2.5em;
-    left: 1.5em;
+    left: 1em;
 }
 
-header > #nav-two > p {
+header > #nav-one > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+header > #nav-two > a > p {
     position: relative;
     display: inline-block;
     left: 56em;
@@ -46,8 +51,8 @@ header > #nav-two > p {
     font-size: 18px;
     font-weight: bold;
     margin: 5em;
+    color: white;
 }
-
 
 main {
     margin: 2em;
@@ -62,17 +67,18 @@ main {
 }
 
 #image > p {
-    width: 18%;
+    width: 15%;
     font-size: 18px;
     position: relative;
-    top: 2em;
+    top: 1em;
     left: 2.3em;
+    text-align: left;
 }
 
 #image > img {
     height: 100%;
     float: right;
-    right: 2em;
+    right: 0.7em;
     position: relative;
     padding: 1em;
 }
@@ -87,11 +93,13 @@ main {
 }
 
 #image-two > p {
-    width: 18%;
+    width: 15%;
     font-size: 18px;
     position: relative;
     float: right;
-    top: 2em;
+    top: 1.3em;
+    text-align: right;
+    right: 2em;
 }
 
 #image-two > img {
@@ -112,17 +120,18 @@ main {
 }
 
 #image-three > p {
-    width: 18%;
+    width: 15%;
     font-size: 18px;
     position: relative;
-    top: 1.5em;
+    top: 0.9em;
     left: 2.3em;
+    text-align: left;
 }
 
 #image-three > img {
     height: 100%;
     float: right;
-    right: 2em;
+    right: 0.7em;
     position: relative;
     padding: 1em;
 }
@@ -144,7 +153,7 @@ main {
 #register > #texto {
     width: 20%;
     position: relative;
-    top: 6em;
+    top: 3.5em;
     left: 22em;
     text-align: center;
 }
@@ -153,8 +162,26 @@ main {
     height: 3em;
     width: 15em;
     position: absolute;
-    top: 21em;
-    left: 29.2em;
+    top: 17em;
+    left: 29.5em;
+    border-radius: 10%;
+    border: 1px solid white;
+}
+
+#register > article > #option {
+    height: 3em;
+    width: 15em;
+    position: absolute;
+    top: 18.3em;
+    left: 30.2em;
+}
+
+#register > article > a > #second-button {
+    height: 3em;
+    width: 15em;
+    position: absolute;
+    top: 25em;
+    left: 29.5em;
     border-radius: 10%;
     border: 1px solid white;
 }
@@ -166,4 +193,18 @@ main {
 #register > article > #first-button:hover {
     background-color: black;
     border: 1px solid black;
+}
+
+header > #nav-one > ul > li > a:hover {
+    color: black;
+}
+
+header > #nav-two > a > p:hover {
+    color: black;
+}
+
+#register > article > a > #second-button:hover {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
 }
